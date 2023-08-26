@@ -1,11 +1,12 @@
 num = int(input("Enter a number: "))
+num1 = (num % 2)
 
-if 
-    if
+if num > 0 and num1 = 1:
+    if:
         result = "Positive odd number"
     else:
         result = "Positive even number"
-elif
+elif num < 0
     result = "Negative number"
 else:
     result = "It is zero"
