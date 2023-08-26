@@ -1,9 +1,11 @@
-is_active = bool(input("Is the user active? "))
-is_admin = bool(input("Is the user administrator? "))
-is_permission = bool(input("Does the user have access? "))
-access = is_active and is_permission
-print(access)
-if access:
-    print("Доступ є")
+num = int(input("Enter a number: "))
+
+if 
+    if
+        result = "Positive odd number"
+    else:
+        result = "Positive even number"
+elif
+    result = "Negative number"
 else:
-    print("Доступ відсутній")
+    result = "It is zero"
