@@ -12,5 +12,10 @@
 			"path": "../repository_first"
 		}
 	],
-	"settings": {}
+	"settings": {},
+	"extensions": {
+		"recommendations": [
+			"goit.vscode-activity"
+		]
+	}
 }
