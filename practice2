@@ -10,4 +10,8 @@ elif num < 0:
     result = "Negative number"
 else:
     result = "It is zero"
-print(result)
+num2 = bool(num)
+if num2:
+    print(result)
+else:
+    num = int(input("Enter a number: "))
