@@ -1,4 +1,3 @@
-print ("Hellow")
 import random
 import pygame
 from pygame.constants import QUIT, K_DOWN, K_UP, K_RIGHT, K_LEFT
