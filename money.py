@@ -1,6 +1,6 @@
 import math
 try:
-    a1 = input("Enter coefficient a: ")
+    a1 = int(input("Enter coefficient a: "))
     a1 = bool(a1)
    
 except ValueError:
