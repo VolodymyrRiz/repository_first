@@ -1,10 +1,4 @@
-import math
-a = int(input("Enter coefficient a: "))
-b = int(input("Enter coefficient b: "))
-c = int(input("Enter coefficient c: "))
-D = b ** 2 - 4 * a * c
-print(D)
-if D > 0:
-    x1 = (-b + math.sqrt(D)) / (2 * a)
-    x2 = (-b - math.sqrt(D)) / (2 * a)
-    print(x1)
+num = int(input("Enter an integer number: "))
+num = num % 2
+is_even = "Even" if num else "Odd"
+print(is_even)
