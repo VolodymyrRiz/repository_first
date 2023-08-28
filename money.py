@@ -1,6 +1,6 @@
 import math
 try:
-    a1 = int(input("Enter coefficient a: "))
+    a1 = input("Enter coefficient a: ")
     a1 = bool(a1)
    
 except ValueError:
@@ -17,15 +17,21 @@ except ValueError:
     print("Введіть число")
 while not a1 or not b1 or not c1:
     if not a1:
-        print("Введіть число ")
-        a1 = input("Number ")
+        #print("Введіть число ")
+        a1 = input("A Number ")
         if not b1:
-            print("Введіть число ")
-            b1 = input("Number ")
-            if not c1:
-                print("Введіть число ")
-                c1 = input("Number ")
-           
+           # print("Введіть число ")
+            b1 = input("B Number ")
+        #else:
+        #    break
+        if not c1:
+                #print("Введіть число ")
+            c1 = input("C Number ")
+        #else:
+        #    break
+   # else:
+       # break   
+
 a = int(a1)
 b = int(b1)
 c = int(c1)
