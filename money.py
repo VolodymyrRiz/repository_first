@@ -7,3 +7,4 @@ print(D)
 if D > 0:
     x1 = (-b + math.sqrt(D)) / (2 * a)
     x2 = (-b - math.sqrt(D)) / (2 * a)
+    print(x1)
